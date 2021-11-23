@@ -14,9 +14,9 @@
   <ul>
     <% students.forEach( function(student) { %>
       <li>
-        <%- include('user/show', {user: user}) %>
+        student :
         <%= student._id %>
-        -
+        - Year :
         <%= student.year  %> 
           -
         <%= student.scholarship ? 'has scholarship' : 'does not have scholarship' %>
